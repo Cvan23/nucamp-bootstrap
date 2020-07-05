@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+     <!-- Additional CSS must be placed after Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+     <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <style>
+        body {
+            margin: 10px;
+            background-color: rgb(229, 209, 241);
+        }
+
+        .parent {
+            width: 95%;
+            border: 50px solid #0b9622;
+            float: left;
+        }
+
+        .child {
+            width: 100%;
+            padding: 20%;
+            border: 30px solid rgba(68, 5, 168, 0.664);
+            margin: auto;
+        }
+
+        .twins {
+            width: 50%;
+            padding: 1em;
+            border: 25px solid rgb(9, 23, 218);
+            float: left;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+                                <!--BUTTONS-->
+    <div class="row mt-5">
+        <div class="col col-6">
+            <div class="dropdown">
+                <button class="btn btn-primary btn-tumblr dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">My Cat</a>
+                <a class="dropdown-item" href="#">Another Cat</a>
+                <a class="dropdown-item" href="#">Someone else's cat</a>
+                <a class="dropdown-item" href="#">Someone else's cat</a>
+                <a class="dropdown-item" href="#">Someone else's cat</a>
+                <a class="dropdown-item" href="#">Someone else's cat</a>
+                <a class="dropdown-item" href="#">Someone else's cat</a>
+                </div>
+            </div>
+        </div>
+        <div class="col col-6">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-secondary">1</button>
+                <button type="button" class="btn btn-secondary">2</button>
+              
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-yahoo dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col col-12">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-flickr dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Action
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-soundcloud dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Action
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-toolbar btn-facebook dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Action
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-lg btn-pinterest dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Action
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col">
+            <div class="btn-group dropright">
+                <button type="button" class="btn btn-secondary">
+                  Split dropright
+                </button>
+                <button type="button" class="btn btn-lg btn-instagram dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropright</span>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                                <!--End BUTTONS-->
+
+                                <!--Boxes-->
+<div class="container container-fluid">
+    <div class="row mt-5">
+        <div class="col col-sm-12">
+            <div class="parent">
+                <p>Parent div</p>
+                <div class="child">
+                    <p>Child div</p>
+                </div>
+                <div class="twins">
+                    <p>Child divs</p>
+                </div>
+                <div class="twins">
+                    <p>Child divs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

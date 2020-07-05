@@ -1,0 +1,50 @@
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient( to right, #362e24,
+    #c28845, #f1cf84);
+}
+
+
+body {
+    background-color: rgb(223, 206, 159);
+    
+}
+
+h1, h2, h3, h4 {
+    font-family: "Fredoka";
+    color: rgb(74, 7, 129);
+    font-weight: 700;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.site-footer {
+    background-image: linear-gradient( to right, #362e24,
+    #c28845, #f1cf84);
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: rgba(49, 33, 2, 0.507)
+ }
+
+ .card-header {
+     background-color: #c28845;
+ }
+
+ .card-body {
+     background-color: #f1cf84;
+ }
+
+ img {
+     background-blend-mode: soft-light;
+     
+ }
