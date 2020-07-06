@@ -1,13 +1,21 @@
 .jumbotron {
     margin: 0;
-    padding: 30px;
+    padding: 20px;
     background-image: linear-gradient( to right, #362e24,
     #c28845, #f1cf84);
 }
 
+.container {
+    margin-top: 10px;
+}
+
+.row {
+    margin-top: 40px;
+}
 
 body {
     background-color: rgb(223, 206, 159);
+    
     
 }
 
@@ -15,6 +23,11 @@ h1, h2, h3, h4 {
     font-family: "Fredoka";
     color: rgb(74, 7, 129);
     font-weight: 700;
+}
+
+h5 {
+    color: indigo;
+    font-weight: 500;
 }
 
 p {
@@ -30,10 +43,11 @@ h1 {
     background-image: linear-gradient( to right, #362e24,
     #c28845, #f1cf84);
     padding: 20px 0;
+    margin-top: 40px;
 }
 
 .navbar {
-    background-color: rgba(49, 33, 2, 0.507)
+    background-color: rgba(49, 33, 2, 0.671)
  }
 
  .card-header {
@@ -47,4 +61,8 @@ h1 {
  img {
      border-style: double;
      
+ }
+
+ .card {
+     border: inset rgb(153, 74, 21);
  }
