@@ -45,6 +45,6 @@ h1 {
  }
 
  img {
-     background-blend-mode: soft-light;
+     border-style: double;
      
  }
