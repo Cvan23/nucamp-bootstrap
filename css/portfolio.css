@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: rgb(223, 206, 159);
+    background-color: rgb(175, 168, 147);
     
     
 }
@@ -22,16 +22,16 @@ body {
 h1, h2, h3, h4 {
     font-family: "Fredoka";
     color: rgb(74, 7, 129);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h5 {
     color: indigo;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 550;
 }
 
@@ -51,11 +51,13 @@ h1 {
  }
 
  .card-header {
-     background-color: #c28845;
+    background-image: linear-gradient( to left, #362e24,
+    #c28845, #f1cf84);
  }
 
  .card-body {
-     background-color: #f1cf84;
+    background-image: linear-gradient( to right, #534b41,
+    #af9373, #e4d3b0);
  }
 
  img {
@@ -65,4 +67,14 @@ h1 {
 
  .card {
      border: inset rgb(153, 74, 21);
+ }
+
+ .modal-header {
+    background-image: linear-gradient( to left, #362e24,
+    #c28845, #f1cf84);
+ }
+
+ .modal-body {
+    background-image: linear-gradient( to right, #534b41,
+    #af9373, #e4d3b0);
  }

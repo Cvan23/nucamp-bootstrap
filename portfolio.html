@@ -15,7 +15,7 @@
      <link href="https://fonts.googleapis.com/css?family=Fredoka+One:regular" rel="stylesheet" />
      <link rel="stylesheet" href="css/portfolio.css" />
 
-    <title>NuCamp: A Better Way To Camp</title>
+    <title>Coffee Kitty Rescue Cat Cafe</title>
 </head>
 
 <body>
@@ -60,22 +60,78 @@
                 <div class="card">
                     <h3 class="card-header">Our Story <a><img src="img/catcafe1.jpg" width="170px" alt="Cat"></a></h3>
                     <div class="card-body">
+                        <a class="btn" role="button">
+                            <div class="col">
+                                <button type="submit" class="btn btn-outline-dark" data-toggle="modal" data-target=".bd-story-modal-lg"
+                                id="#storyModal">Meet Us!</button>
+                            </div>
+                        </a>
                         <h4>Some text about our story that I will finish writing later lol.</h4>
                         <p>Some test text to see how this shit-show is going lol.</p>
                     </div>
                 </div>
             </div>
+            
             <div class="col col-sm-6">
                 <div class="card">
                     <h3 class="card-header">Our Cats! <a><img src="img/El-Gato-Coffee-House.png" width="210px" alt="Cat"></a></h3>
                     <div class="card-body">
+                        <a class="btn" role="button">
+                            <div class="col">
+                                <button type="submit" class="btn btn-outline-dark" data-toggle="modal" data-target=".bd-cats-modal-lg"
+                                id="#catsModal">Meet Our Cats!</button>
+                            </div>
+                        </a>
                         <h4>Some text about how our cats are the absolute best cats in the universe.</h4>
                         <p>Some test text to see how this shit-show is going lol.</p>
                     </div>
                 </div>
             </div>
         </div>
-
+                   <!--End Section 1 Cards Begin Section 1 Modals-->
+    <div class="modal fade bd-story-modal-lg" id="storyModal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-white">Our Story!</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row row-content">
+                        <div class="col col-6">
+                            <img src="img/catcafe1.jpg" width="200px">
+                        </div>
+                        <div class="col col-6">
+                            <img src="img/catcafe1.jpg" width="200px">
+                        </div>
+                    </div>
+                        <p>Cats and Caffeine, two of the best things in life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-cats-modal-lg" id="catsModal" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-white">Our Cats!</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row row-content">
+                        <div class="col col-6">
+                            <img src="img/El-Gato-Coffee-House.png" width="200px">
+                        </div>
+                        <div class="col col-6">
+                            <img src="img/El-Gato-Coffee-House.png" width="200px">
+                        </div>
+                    </div>
+                        <p>Cats for Days!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                   <!--Section 2 Community Partner Cards--> 
         <div class="row row-content">
             <div class="col">
                 <h3>Community Partners</h3>
@@ -103,7 +159,8 @@
                 </div>
             </div>
         </div>
-
+                    <!--End Section 2 Community Prtnr Cards-->
+                    <!--Start Section 3 Adoption Cards-->
         <div class="row row-content">
             <div class="col">
                 <h3>Adoption Succes Stories</h3>
@@ -144,6 +201,9 @@
                 </div>
             </div>
         </div>
+                                <!--End Section 3 Adoption Cards-->
+                                
+                                <!--Start Section 4 Menu Card-->
         <div class="row row-content">
             <div class="col">
                 <h3 id="yummy">Menu</h3>
@@ -163,7 +223,7 @@
             </div>
         </div>
     </div>
-
+                                <!--End Menu Card-->
     <footer class="site-footer">
         <div class="container">
             <div class="row">
