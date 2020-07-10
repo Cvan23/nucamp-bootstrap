@@ -1,0 +1,56 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+h2 {
+    color: #3046C5;
+}
+.logoCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 70px;
+}
+header h2 {
+    color: #CEC8FF;
+}
+.site-footer {
+    background-color: #061A39;
+    padding: 20px 0;
+    color: white;
+}
+.container-header {
+    margin: 0;
+    padding: 2px;
+    background-image: url("../img/header-tuck.svg");
+    background-repeat: no-repeat;
+    background-size: max-width;
+    color: black
+    text-align: center;
+    height: 10%;
+    box-shadow: 10px 10px 5px #ccc;
+}
+.big-logo {
+    width: 70px;
+}
+.sitename {
+    font-size: 3.5vw;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.navbar {
+    background-color: white;
+    margin-top: 30px;
+    font-size: 
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+    border: solid #5637DD;

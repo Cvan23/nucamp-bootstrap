@@ -19,10 +19,21 @@ body {
     
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: "Fredoka";
     color: rgb(74, 7, 129);
     font-weight: 800;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+h4 {
+    font-family: "Fredoka";
+    color: rgb(74, 7, 129);
+    font-weight: 900;
 }
 
 h5 {
@@ -61,12 +72,13 @@ h1 {
  }
 
  img {
-     border-style: double;
+     border-style: inset indigo;
+     box-shadow: 4px 4px 4px rgba(76, 0, 130, 0.699);
      
  }
 
  .card {
-     border: inset rgb(153, 74, 21);
+     box-shadow: 7px 7px 7px rgba(76, 0, 130, 0.699);
  }
 
  .modal-header {
@@ -78,3 +90,13 @@ h1 {
     background-image: linear-gradient( to right, #534b41,
     #af9373, #e4d3b0);
  }
+
+ .btn-sm {
+     width: 120%;
+     background-color: rgb(122, 68, 161);
+     color: #e4d3b0;
+     box-shadow: 3px 3px 3px #e4d3b094;
+     font-size: large;
+ }
+
+ 
