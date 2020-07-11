@@ -34,7 +34,9 @@ header h2 {
     box-shadow: 10px 10px 5px #ccc;
 }
 .big-logo {
+    
     width: 70px;
+    
 }
 .sitename {
     font-size: 3.5vw;

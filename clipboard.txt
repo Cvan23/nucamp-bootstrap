@@ -73,3 +73,11 @@ CODE FOR ACCORDIAN
             </div>
         </div>
     </div>
+
+
+                *DATA ATTRIBUTES FOR Reserve AND LOGIN BUTTONS*
+
+                data-toggle="modal" data-target=".bd-reserve-modal-lg"
+                 id="#reserveModal"
+
+                 data-toggle="modal" data-target="#loginModal"
