@@ -99,4 +99,16 @@ h1 {
      font-size: large;
  }
 
+ small {
+     font-size: 13.5px;
+     font-weight: bold;
+     
+ }
+
+ .carousel-item {
+     color: indigo;
+ }
+
+ 
+
  
