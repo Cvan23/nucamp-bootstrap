@@ -30,6 +30,10 @@
                 <div class="col col-sm-3 col-md-4 align-self-center">
                     <h1>Coffee Kitty</h1>
                     <h2>Rescue Cat Cafe</h2>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                 </div>
             </div> 
         </div>
@@ -67,7 +71,7 @@
                                 id="#storyModal">Meet Our Cats!</button>
                             </div>
                         </a>
-                        <h4>Some text about how our cats are the absolute best cats in the universe!</h4>
+                        <h3>Some text about how our cats are the absolute best cats in the universe!</h3>
                     </div>
                 </div>
             </div>
@@ -82,7 +86,7 @@
                                 id="#catsModal">Meet Us!</button>
                             </div>
                         </a>
-                        <h4>Some text about how cats and coffee are two of the best things in life lol.</h4>
+                        <h3>Some text about how cats and coffee are two of the best things in life lol.</h3>
                     </div>
                 </div>
             </div>
@@ -188,7 +192,7 @@
                     </div>
                     <div class="card">
                         <div role="tab" class="card-header">
-                            <h4><a class="collapsed" data-toggle="collapse" data-target="#pixie">The Pixie Project <em>Changing the Face of Animal Rescue</em></a></h4>
+                            <h4 class="card-img-wrapper"><a class="collapsed" data-toggle="collapse" data-target="#pixie">The Pixie Project <em>Changing the Face of Animal Rescue</em></a></h4>
                             <div class="collapse" id="pixie" data-parent="#accordian">
                                 <div class="card-body">
                                     <a href="https://www.pixieproject.org/" target="-blank" class="clearfix">
@@ -305,7 +309,9 @@
                                     <div class="row row-content align-items-center">
                                         <div class="col-sm-4">
                                             <h5>Our Address</h5>
-                                            <a href="https://www.google.com/maps/place/3409+SE+34th+Ave,+Portland,+OR+97202/@45.4968176,-122.6314802,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a07ec066a0d3:0x8186caa0c3169a2f!8m2!3d45.4968176!4d-122.6292915?hl=en&authuser=0" target="-blank">
+                                            <a role="button" class="fa fa-map-marker" href="https://www.google.com/maps/place/3409+SE+34th+Ave,+Portland,+OR+97202/@45.4968176,
+                                            -122.6314802,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a07ec066a0d3:0x8186caa0c3169a2f!8m2!3d45.
+                                            4968176!4d-122.6292915?hl=en&authuser=0" target="-blank">
                                             <address>
                                                 3409 SE 34th Ave<br />
                                                 Portland, OR 97202<br />
@@ -421,8 +427,23 @@
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("h4").on({
+                mouseenter: function(){
+                $(this).css("background-color", "rosybrown");
+                },  
+                mouseleave: function(){
+                $(this).css("background-color", "burlywood");
+                }, 
+                
+            });
+            });
+    </script>
 
 </div>
 </body>
